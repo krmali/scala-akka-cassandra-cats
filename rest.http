@@ -1,0 +1,18 @@
+POST http://localhost:8888/bank
+Content-Type: application/json
+
+{
+  "user": "kareem",
+  "balance": 200000,
+  "currency": "USD"
+}
+
+GET http://localhost:8888/bank/49fe8c94-15cc-4b95-a7e7-3d23989a48be
+
+PUT http://localhost:8888/bank/dc7e681a-b913-41f9-b9a7-c8eaf81f1256
+Content-Type: application/json
+
+{
+  "amount": 10,
+  "currency": "USD"
+}
